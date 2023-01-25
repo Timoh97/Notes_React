@@ -6,7 +6,7 @@ import ListItem from "../components/Listitem";
 const NotesLIstPage = () => {
     return (
         <div className="notes-list">
-        {notes.map((note, index) => (<ListItem key={index}/>))}
+        {notes.map((note, index) => (<ListItem key={index} note={note}/>))}
         
         </div>
     )

@@ -1,8 +1,10 @@
 import React from "react"
 
-const ListItem = (props) => {
+const ListItem = (note) => {
     return (
-<div></div>
+<div>
+<p>{note.body}</p>
+</div>
     )
 }
 
