@@ -1,7 +1,6 @@
+import React from "react"
 
-
-
-const Header = ()=>{
+const Body = () => {
     return (
         <div>
         <h3>Body</h3>
@@ -9,5 +8,4 @@ const Header = ()=>{
     )
 }
 
-
-export default Header;
+export default Body;
